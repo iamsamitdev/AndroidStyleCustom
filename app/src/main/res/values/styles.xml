@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="headerText">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#E91E63</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+    <style name="btnNormal" >
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/mybtn</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="btnGradient" >
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/bgbuttongradien</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="imgFlow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:foreground">@drawable/imground</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidStyle</string>
+    <string name="title_home">Home Page</string>
+    <string name="about_home">About Page</string>
+</resources>
